@@ -2,8 +2,8 @@ export default ({
   namespaces: 'count',
   state: 0,
   reducers: {
-    add(count) {
-      return ++count
+    add(index) {
+      return ++index
     },
     minus(count) {
       return --count

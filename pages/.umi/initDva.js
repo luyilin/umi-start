@@ -14,4 +14,5 @@ app.use(createLoading());
   app.use(plugin);
 });
 
-app.model({ namespace: 'count', ...(require('/Users/uc/code/source/umi-start/pages/users/models/count.js').default) });
+app.model({ namespace: 'index', ...(require('/Users/uc/code/source/umi-start/pages/test/models/index.js').default) });
+app.model({ namespace: 'index', ...(require('/Users/uc/code/source/umi-start/pages/users/models/index.js').default) });
